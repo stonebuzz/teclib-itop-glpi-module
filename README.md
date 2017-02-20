@@ -2,6 +2,8 @@
 
 This module is required for GLPI to iTop synchronization.
 
+The GLPI plugin is available at (https://github.com/pluginsGLPI/itop)[https://github.com/pluginsGLPI/itop].
+
 ## Contributing
 
 * Open a ticket for each bug/feature so it can be discussed
