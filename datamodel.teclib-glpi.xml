@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itop_design xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0">
+  <constants>
+  </constants>
+  <classes>
+    <class id="Organization" _delta="merge">
+       <parent>cmdbAbstractObject</parent>
+       <fields>
+          <field id="glpi_uniqueid" xsi:type="AttributeString" _delta="define">
+          <sql>glpi_uniqueid</sql>
+          <default_value/>
+          <is_null_allowed>true</is_null_allowed>
+          </field>
+       </fields>
+       <presentation>
+          <details>
+             <items>
+                <item id="glpi_uniqueid"><rank>12</rank></item>
+             </items>
+          </details>
+       </presentation> 
+    </class>
+    <class id="Contact" _delta="merge">
+       <parent>cmdbAbstractObject</parent>
+       <fields>
+          <field id="glpi_uniqueid" xsi:type="AttributeString" _delta="define">
+          <sql>glpi_uniqueid</sql>
+          <default_value/>
+          <is_null_allowed>true</is_null_allowed>
+          </field>
+       </fields>
+       <presentation>
+          <details>
+             <items>
+                <item id="glpi_uniqueid"><rank>12</rank></item>
+             </items>
+          </details>
+       </presentation>
+    </class>
+    <class id="IOSVersion" _delta="merge">
+       <parent>cmdbAbstractObject</parent>
+       <fields>
+          <field id="glpi_uniqueid" xsi:type="AttributeString" _delta="define">
+          <sql>glpi_uniqueid</sql>
+          <default_value/>
+          <is_null_allowed>true</is_null_allowed>
+          </field>
+       </fields>
+       <presentation>
+          <details>
+             <items>
+                <item id="glpi_uniqueid"><rank>12</rank></item>
+             </items>
+          </details>
+       </presentation>
+    </class>
+
+    <class id="FunctionalCI" _delta="merge">
+       <parent>cmdbAbstractObject</parent>
+       <fields>
+
+          <field id="glpi_uniqueid" xsi:type="AttributeString" _delta="define">
+          <sql>glpi_uniqueid</sql>
+          <default_value/>
+          <is_null_allowed>true</is_null_allowed>
+          </field>
+       </fields>
+       <presentation>
+          <details>
+             <items>
+                <item id="glpi_uniqueid"><rank>12</rank></item>
+             </items>
+          </details>
+       </presentation> 
+    </class>
+
+
+    <class id="NetworkDeviceType" _delta="merge">
+       <parent>Typology</parent>
+       <fields>
+
+          <field id="glpi_uniqueid" xsi:type="AttributeString" _delta="define">
+          <sql>glpi_uniqueid</sql>
+          <default_value/>
+          <is_null_allowed>true</is_null_allowed>
+          </field>
+       </fields>
+       <presentation>
+          <details>
+             <items>
+                <item id="glpi_uniqueid"><rank>12</rank></item>
+             </items>
+          </details>
+       </presentation>
+    </class>
+
+    <class id="Location" _delta="merge">
+       <parent>cmdbAbstractObject</parent>
+       <fields>
+
+          <field id="glpi_uniqueid" xsi:type="AttributeString" _delta="define">
+          <sql>glpi_uniqueid</sql>
+          <default_value/>
+          <is_null_allowed>true</is_null_allowed>
+          </field>
+       </fields>
+       <presentation>
+          <details>
+             <items>
+                <item id="glpi_uniqueid"><rank>12</rank></item>
+             </items>
+          </details>
+       </presentation> 
+    </class>
+    <class id="Brand" _delta="merge">
+       <parent>Typology</parent>
+       <fields>
+
+          <field id="glpi_uniqueid" xsi:type="AttributeString" _delta="define">
+          <sql>glpi_uniqueid</sql>
+          <default_value/>
+          <is_null_allowed>true</is_null_allowed>
+          </field>
+       </fields>
+       <presentation>
+          <details>
+             <items>
+                <item id="glpi_uniqueid"><rank>12</rank></item>
+             </items>
+          </details>
+       </presentation> 
+    </class>
+    <class id="Model" _delta="merge">
+       <parent>Typology</parent>
+       <fields>
+
+          <field id="glpi_uniqueid" xsi:type="AttributeString" _delta="define">
+          <sql>glpi_uniqueid</sql>
+          <default_value/>
+          <is_null_allowed>true</is_null_allowed>
+          </field>
+       </fields>
+       <presentation>
+          <details>
+             <items>
+                <item id="glpi_uniqueid"><rank>12</rank></item>
+             </items>
+          </details>
+       </presentation> 
+    </class>
+    <class id="OSFamily" _delta="merge">
+       <parent>Typology</parent>
+       <fields>
+
+          <field id="glpi_uniqueid" xsi:type="AttributeString" _delta="define">
+          <sql>glpi_uniqueid</sql>
+          <default_value/>
+          <is_null_allowed>true</is_null_allowed>
+          </field>
+       </fields>
+       <presentation>
+          <details>
+             <items>
+                <item id="glpi_uniqueid"><rank>12</rank></item>
+             </items>
+          </details>
+       </presentation> 
+    </class>
+    <class id="OSVersion" _delta="merge">
+       <parent>Typology</parent>
+       <fields>
+
+          <field id="glpi_uniqueid" xsi:type="AttributeString" _delta="define">
+          <sql>glpi_uniqueid</sql>
+          <default_value/>
+          <is_null_allowed>true</is_null_allowed>
+          </field>
+       </fields>
+       <presentation>
+          <details>
+             <items>
+                <item id="glpi_uniqueid"><rank>12</rank></item>
+             </items>
+          </details>
+       </presentation> 
+    </class>
+
+    <class id="NetworkInterface" _delta="merge">
+       <parent>cmdbAbstractObject</parent>
+       <fields>
+
+          <field id="glpi_uniqueid" xsi:type="AttributeString" _delta="define">
+          <sql>glpi_uniqueid</sql>
+          <default_value/>
+          <is_null_allowed>true</is_null_allowed>
+          </field>
+       </fields>
+       <presentation>
+          <details>
+             <items>
+                <item id="glpi_uniqueid"><rank>12</rank></item>
+             </items>
+          </details>
+       </presentation>
+    </class>
+
+    <class id="VLAN" _delta="merge">
+       <parent>cmdbAbstractObject</parent>
+       <fields>
+
+          <field id="glpi_uniqueid" xsi:type="AttributeString" _delta="define">
+          <sql>glpi_uniqueid</sql>
+          <default_value/>
+          <is_null_allowed>true</is_null_allowed>
+          </field>
+       </fields>
+       <presentation>
+          <details>
+             <items>
+                <item id="glpi_uniqueid"><rank>12</rank></item>
+             </items>
+          </details>
+       </presentation>
+    </class>
+
+   <class id="Software" _delta="merge">
+       <parent>cmdbAbstractObject</parent>
+       <fields>
+          <field id="glpi_uniqueid" xsi:type="AttributeString" _delta="define">
+          <sql>glpi_uniqueid</sql>
+          <default_value/>
+          <is_null_allowed>true</is_null_allowed>
+          </field>
+       </fields>
+       <presentation>
+          <details>
+             <items>
+                <item id="glpi_uniqueid"><rank>12</rank></item>
+             </items>
+          </details>
+       </presentation>
+    </class>
+  </classes>
+  <menus>
+  </menus>
+  <user_rights>
+    <groups>
+    </groups>
+    <profiles>
+    </profiles>
+  </user_rights>
+</itop_design>
