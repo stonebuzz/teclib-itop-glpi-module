@@ -677,8 +677,48 @@ For more information on this, and how to apply and follow the GNU AGPL, see
  */
   
 Dict::Add('FR FR', 'French', 'Français', array(
-        'Class:Location/Attribute:parent_id' => 'Parent',
-        'Class:Location/Attribute:parent_id+' => 'Lieu parent',
-        'Class:Location/Attribute:parent_name' => 'Lieu parent',
+   'Class:Location/Attribute:parent_id' => 'Parent',
+   'Class:Location/Attribute:parent_id+' => 'Lieu parent',
+   'Class:Location/Attribute:parent_name' => 'Lieu parent',
+
+   'Class:Organization/Attribute:glpi_uniqueid' => 'GLPi ID',
+   'Class:Organization/Attribute:glpi_uniqueid+' => '',
+
+   'Class:Location/Attribute:glpi_uniqueid' => 'GLPi ID',
+   'Class:Location/Attribute:glpi_uniqueid+' => '',
+
+   'Class:Contact/Attribute:glpi_uniqueid' => 'GLPi ID',
+   'Class:Contact/Attribute:glpi_uniqueid+' => '',
+
+   'Class:FunctionalCI/Attribute:glpi_uniqueid' => 'GLPi ID',
+   'Class:FunctionalCI/Attribute:glpi_uniqueid+' => '',
+
+   'Class:Software/Attribute:glpi_uniqueid' => 'GLPi ID',
+   'Class:Software/Attribute:glpi_uniqueid+' => '',
+
+   'Class:OSVersion/Attribute:glpi_uniqueid' => 'GLPi ID',
+   'Class:OSVersion/Attribute:glpi_uniqueid+' => '',
+
+   'Class:OSFamily/Attribute:glpi_uniqueid' => 'GLPi ID',
+   'Class:OSFamily/Attribute:glpi_uniqueid+' => '',
+
+   'Class:Brand/Attribute:glpi_uniqueid' => 'GLPi ID',
+   'Class:Brand/Attribute:glpi_uniqueid+' => '',
+
+   'Class:Model/Attribute:glpi_uniqueid' => 'GLPi ID',
+   'Class:Model/Attribute:glpi_uniqueid+' => '',
+
+   'Class:NetworkDeviceType/Attribute:glpi_uniqueid' => 'GLPi ID',
+   'Class:NetworkDeviceType/Attribute:glpi_uniqueid+' => '',
+
+   'Class:IOSVersion/Attribute:glpi_uniqueid' => 'GLPi ID',
+   'Class:IOSVersion/Attribute:glpi_uniqueid+' => '',
+
+   'Class:VLAN/Attribute:glpi_uniqueid' => 'GLPi ID',
+   'Class:VLAN/Attribute:glpi_uniqueid+' => '',
+
+   'Class:NetworkInterface/Attribute:glpi_uniqueid' => 'GLPi ID',
+   'Class:NetworkInterface/Attribute:glpi_uniqueid+' => '',
+
 ));
 ?>
